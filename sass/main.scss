@@ -1,15 +1,45 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // Variables
-$primary:       #5265E1;
-$secondary:     #FA5959;
+$primary: #5265E1;
+$secondary: #FA5959;
 
 
 // Clases
-.shapeBlue{
+.shapeBlue {
     background-image: url('/images/shapeBlue.svg');
+}
+
+.shapeBlueReverse {
+    background-image: url('/images/shapeBlueReverse.svg');
+}
+
+.nav-tabs {
+    --#{$prefix}nav-tabs-border-width: 4px;
+    --#{$prefix}nav-tabs-link-active-border-color: transparent transparent #{$secondary};
+}
+
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link {
+
+    color: $dark;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #{$secondary};
+    --bs-btn-border-color: #{$secondary};
 }
 
 
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
