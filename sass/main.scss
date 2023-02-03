@@ -35,6 +35,14 @@ $secondary: #FA5959;
     --bs-btn-border-color: #{$secondary};
 }
 
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #{$primary};
+    --bs-btn-border-color: #{$primary};
+}
+
+
+
 
 
 

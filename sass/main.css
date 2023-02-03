@@ -10958,4 +10958,10 @@ textarea.form-control-lg {
   --bs-btn-color: #fff;
   --bs-btn-bg: #FA5959;
   --bs-btn-border-color: #FA5959;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #5265E1;
+  --bs-btn-border-color: #5265E1;
 }/*# sourceMappingURL=main.css.map */
