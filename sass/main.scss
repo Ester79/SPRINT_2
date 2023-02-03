@@ -42,6 +42,12 @@ $secondary: #FA5959;
 }
 
 
+.accordion-button::after {
+    background-image: url('/images/icon-arrow.svg');
+}
+
+
+
 
 
 

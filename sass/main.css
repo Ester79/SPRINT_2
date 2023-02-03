@@ -10964,4 +10964,8 @@ textarea.form-control-lg {
   --bs-btn-color: #fff;
   --bs-btn-bg: #5265E1;
   --bs-btn-border-color: #5265E1;
+}
+
+.accordion-button::after {
+  background-image: url("/images/icon-arrow.svg");
 }/*# sourceMappingURL=main.css.map */
