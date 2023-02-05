@@ -3,6 +3,7 @@
 // Variables
 $primary: #5265E1;
 $secondary: #FA5959;
+$navy: #244FA0;
 
 
 // Clases
@@ -45,6 +46,29 @@ $secondary: #FA5959;
 .accordion-button::after {
     background-image: url('/images/icon-arrow.svg');
 }
+
+footer{
+    background-color: $primary;
+    color: white;
+}
+
+.form-control {
+    &::placeholder {
+        opacity: 0.5;
+      }
+}
+
+.social{
+    background-color: $navy;  
+    --bs-link-color: white;
+}
+
+
+
+
+
+
+
 
 
 
