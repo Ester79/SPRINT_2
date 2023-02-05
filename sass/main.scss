@@ -26,25 +26,55 @@ $navy: #244FA0;
 }
 
 .nav-link {
-
     color: $dark;
+    &:hover{
+        color: $secondary;
+    }
+}
+
+a:hover{
+    color: $secondary;
+}
+
+.socialIcon:hover{
+    background-color: $secondary;
 }
 
 .btn-secondary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #{$secondary};
     --bs-btn-border-color: #{$secondary};
+    --bs-btn-hover-border-color: #{$secondary};
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: #{$secondary}; 
 }
+
 
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #{$primary};
     --bs-btn-border-color: #{$primary};
+
+    &:hover{
+        color:#{$primary};
+        background-color: white;
+        border-color: #{$primary};
+    }
+}
+
+.btn-light:hover{
+    color: grey;
+    background-color: white;
+    border-color: grey;
 }
 
 
 .accordion-button::after {
     background-image: url('/images/icon-arrow.svg');
+}
+
+.accordion-button:hover {
+   color: #{$secondary}; 
 }
 
 footer{
@@ -62,6 +92,21 @@ footer{
     background-color: $navy;  
     --bs-link-color: white;
 }
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top:0;
+    color: white;
+    background-color: #{$secondary}; 
+    padding-left: 0.875em;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    background-image: url('/images/icon-error.svg');
+}
+
+
 
 
 

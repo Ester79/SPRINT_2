@@ -10953,11 +10953,25 @@ textarea.form-control-lg {
 .nav-link {
   color: #212529;
 }
+.nav-link:hover {
+  color: #FA5959;
+}
+
+a:hover {
+  color: #FA5959;
+}
+
+.socialIcon:hover {
+  background-color: #FA5959;
+}
 
 .btn-secondary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #FA5959;
   --bs-btn-border-color: #FA5959;
+  --bs-btn-hover-border-color: #FA5959;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-color: #FA5959;
 }
 
 .btn-primary {
@@ -10965,9 +10979,24 @@ textarea.form-control-lg {
   --bs-btn-bg: #5265E1;
   --bs-btn-border-color: #5265E1;
 }
+.btn-primary:hover {
+  color: #5265E1;
+  background-color: white;
+  border-color: #5265E1;
+}
+
+.btn-light:hover {
+  color: grey;
+  background-color: white;
+  border-color: grey;
+}
 
 .accordion-button::after {
   background-image: url("/images/icon-arrow.svg");
+}
+
+.accordion-button:hover {
+  color: #FA5959;
 }
 
 footer {
@@ -10990,4 +11019,17 @@ footer {
 .social {
   background-color: #244FA0;
   --bs-link-color: white;
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0;
+  color: white;
+  background-color: #FA5959;
+  padding-left: 0.875em;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  background-image: url("/images/icon-error.svg");
 }/*# sourceMappingURL=main.css.map */

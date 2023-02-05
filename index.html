@@ -36,7 +36,7 @@
                                 <a class="nav-link" href="#contact">CONTACT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="btn btn-secondary text-light" type="button" href="#login">LOGIN</a>
+                                <a class="btn btn-secondary" type="button" href="#login">LOGIN</a>
                             </li>
                         </ul>
 
@@ -293,14 +293,16 @@
             <footer class="container col-12 d-flex flex-column align-items-center pb-3">
                 <p class="d-flex text-md-start text-center pt-4">35.000 + ALREADY JOINED</p>
                 <h1 class="d-flex text-center col-md-7 pb-4">Stay up-to-date with what we're doing</h1>
-                <form action="">
+                <form action="" class="invalid">
                     <div class="row mb-4">
-                        <div class="container col-12 col-md-7 mb-3 d-flex flex-column align-items-center pt-md-2 pt-lg-5">
+                        <div class="container col-12 col-md-7 mb-3 d-flex flex-column align-items-center pt-md-2 pt-lg-5 was-validated">
                             <input type="email" class="form-control bg-white ps-1" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter your email address" required>
+                                <div class="invalid-feedback">Make sure it's an email</div>
+                                
                         </div>
                         <div class="container col-md-5 col-12 d-flex flex-column align-items-center pt-md-2 pt-lg-5">
-                            <button type="submit" class="btn btn-secondary w-100">Contact Us</button>
+                            <button type="submit" class="btn btn-secondary w-100 contactUs">Contact Us</button>
                         </div>
                     </div>
                 </form>
@@ -315,8 +317,8 @@
                     </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-2 d-flex justify-content-md-around justify-content-center">
-                       <a href="#facebook"><img src="./images/icon-facebook.svg" alt=""></a>
-                        <a href="#twitter"><img src="./images/icon-twitter.svg" alt=""></a>
+                       <a href="#facebook"><img src="./images/icon-facebook.svg" class="socialIcon" alt=""></a>
+                        <a href="#twitter"><img src="./images/icon-twitter.svg" class="socialIcon" alt=""></a>
                     </div>
                 </div>
             </div>
